@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miausik</title>
+    <meta name="description" content="who is miausik">
+    <meta name="theme-color" content="#e8d5f2">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="miausik">
+    <meta property="og:description" content="who is miausik">
+    <meta property="og:image" content="/assets/images/avatar.jpg"> <meta property="og:site_name" content="miausik">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card bio">
+            <img src="/assets/images/avatar.jpg" alt="avatar">
+            <h1>miausik</h1>
+            <p>dasha, 14 y.o. • girl of your dreams</p>
+        </div>
+        
+        <div class="card extra">
+            <div>
+                <div class="label">My Love</div>
+                <div class="extra-content">
+                    <a href="https://t.me/steamhvh" class="btn-aesthetic" target="_blank">@steamhvh</a>
+                    <a href="https://xeon.lol" class="btn-aesthetic" target="_blank">xeon.lol</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card music">
+            <img src="/assets/images/track.jpg" alt="Track cover">
+            <div class="track-info">
+                <h2>Дороже золота</h2>
+                <span>Серёга Пират</span>
+            </div>
+            <div class="controls">
+                <button id="toggleBtn">PLAY</button>
+                <div class="volume-container">
+                    <input type="range" id="volume" min="0" max="1" step="0.01" value="0.25">
+                    <span id="volValue">25%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card extra">
+            <div>
+                <div class="label">Socials</div>
+                <div class="extra-content">
+                    <a href="#" class="btn-aesthetic" id="tgBtn">Telegram</a>
+                    <a href="#" class="btn-aesthetic" id="dsBtn">Discord</a>
+                    <a href="#" class="btn-aesthetic" id="ttBtn">TikTok</a>
+                    <a href="#" class="btn-aesthetic" id="steamBtn">Steam</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id="track" src="/assets/sounds/track.mp3"></audio>
+</body>
+</html>
